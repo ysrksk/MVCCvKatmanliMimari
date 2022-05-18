@@ -1,0 +1,22 @@
+﻿@model NLayeredCv.Entities.Concrete.TblHobilerim
+@{
+    ViewBag.Title = "YeniEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hobi Ekle</h2>
+
+<br />
+
+
+@using (Html.BeginForm("YeniEkle", "Hobi", FormMethod.Post))
+{
+    <div>
+        @Html.TextBoxFor(x=> x.Açıklama1, new { placeholder = "Hobinizi Giriniz.", @class = "form-control" })
+        <br />
+        @Html.TextAreaFor(x=> x.Açıklama2, new {placeholder="Hobi açıklaması giriniz", @class="form-control" })
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-primary"> Kaydet </button>
+}

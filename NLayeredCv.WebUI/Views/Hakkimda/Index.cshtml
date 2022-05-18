@@ -1,0 +1,45 @@
+﻿@model NLayeredCv.Entities.Concrete.TblHakkinda
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hakkımda Menüsü</h2>
+
+@using (Html.BeginForm("Duzenle", "Hakkimda", FormMethod.Post))
+{
+    <div>
+        @Html.Label("Ad")
+        @Html.TextBoxFor(p => p.Ad, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Soyad")
+        @Html.TextBoxFor(p => p.Soyad, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Adres")
+        @Html.TextBoxFor(p => p.Adres, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Telefon")
+        @Html.TextBoxFor(p => p.Telefon, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Mail")
+        @Html.TextBoxFor(p => p.Mail, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Açıklama")
+        @Html.TextAreaFor(p => p.Aciklama, new { @class = "form-control" })
+    </div>
+    <br />
+    @Html.HiddenFor(p=> p.ID)
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+}
+

@@ -1,0 +1,46 @@
+﻿@using NLayeredCv.Entities.Concrete
+@model List<TblEgitimlerim>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Eğitimlerim</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Üniversite</th>
+        <th>Fakülte</th>
+        <th>Bölüm</th>
+        <th>Ortalama</th>
+        <th>Tarih</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+    <tr>
+        <td>@x.ID</td>
+        <td>@x.Baslik</td>
+        <td>@x.AltBaslik1</td>
+        <td>@x.AltBaslik2</td>
+        <td>@x.GNO</td>
+        <td>@x.Tarih</td>
+        <td align="center" class="col-md-1">
+            <a class="btn btn-danger btn-sm" href="/Egitim/Sil/@x.ID">
+                <i class="fas fa-trash"></i>Sil
+            </a>
+        </td>
+        <td align="center" class="col-md-2">
+            <a class="btn btn-info btn-sm" href="/Egitim/Duzenle/@x.ID">
+                <i class="fas fa-pencil-alt"></i>Düzenle
+            </a>
+        </td>
+    </tr>
+    }
+</table>
+
+@Html.ActionLink("Yeni Eğitim Ekle","YeniEkle", null, new {@class="btn btn-primary" })

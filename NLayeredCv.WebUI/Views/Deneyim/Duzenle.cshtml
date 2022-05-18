@@ -1,0 +1,36 @@
+﻿@model NLayeredCv.Entities.Concrete.TblDeneyimlerim
+@{
+    ViewBag.Title = "Duzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Deneyim Formu</h2>
+<br />
+@using (Html.BeginForm("Duzenle", "Deneyim", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Başlık")
+        @Html.TextBoxFor(m => m.Baslik, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Alt Başlık")
+        @Html.TextBoxFor(m => m.AltBaslik, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Tarih")
+        @Html.TextBoxFor(m => m.Tarih, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Açıklama")
+        @Html.TextAreaFor(m => m.Aciklama, new { @class = "form-control" })
+    </div>
+    <br />
+    @Html.HiddenFor(x=> x.ID)
+    <button type="submit" class="btn btn-info">Kaydet</button>
+
+}
+
+
+
+

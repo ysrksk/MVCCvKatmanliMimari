@@ -1,0 +1,12 @@
+﻿@using NLayeredCv.Entities.Concrete
+@model List<TblHobilerim>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Hobiler</h2>
+    @foreach(var x in Model)
+    {
+        <h4><p>@x.Açıklama1</p></h4>
+        <p>@x.Açıklama2</p>
+        <br />
+    }
+</div>

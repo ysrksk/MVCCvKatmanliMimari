@@ -1,0 +1,32 @@
+﻿@model NLayeredCv.Entities.Concrete.TblSertifikalarim
+
+@{
+    ViewBag.Title = "Duzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<br />
+<h2>Sertifika Düzenle</h2>
+<br />
+@using (Html.BeginForm("Guncelle", "Sertifika", FormMethod.Post))
+{
+    @Html.HiddenFor(x=>x.ID)
+    <div>
+        @Html.Label("Üniversite Adı")
+        @Html.TextBoxFor(x => x.Baslik, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Fakülte Adı")
+        @Html.TextBoxFor(x => x.Açıklama, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Bölüm Adı")
+        @Html.TextBoxFor(x => x.Tarih, new { @class = "form-control" })
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-success">Kaydet</button>
+}

@@ -1,0 +1,42 @@
+﻿@model NLayeredCv.Entities.Concrete.TblEgitimlerim
+
+@{
+    ViewBag.Title = "Duzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<br />
+<h2>Eğitimi Düzenle</h2>
+<br />
+@using (Html.BeginForm("Duzenle", "Egitim", FormMethod.Post))
+{
+    <div>
+        @Html.Label("Üniversite Adı")
+        @Html.TextBoxFor(x => x.Baslik, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Fakülte Adı")
+        @Html.TextBoxFor(x => x.AltBaslik1, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Bölüm Adı")
+        @Html.TextBoxFor(x => x.AltBaslik2, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Genel Ortalama")
+        @Html.TextBoxFor(x => x.GNO, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Tarih")
+        @Html.TextBoxFor(x => x.Tarih, new { @class = "form-control" })
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Kaydet</button>
+}
+
+

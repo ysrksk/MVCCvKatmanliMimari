@@ -1,0 +1,25 @@
+﻿@model NLayeredCv.Entities.Concrete.TblYeteneklerim
+@{
+    ViewBag.Title = "YeniYetenek";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Yeni Yetenek Ekleme</h2>
+<br />
+
+@using (Html.BeginForm("YeniYetenek", "Yetenek", FormMethod.Post))
+{
+    <div>
+        @Html.Label("Yetenek")
+        @Html.TextBoxFor(x => x.Yetenek, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        @Html.Label("Oran")
+        @Html.TextBoxFor(x => x.Oran, new { @class = "form-control" })
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Kaydet</button>
+}
+

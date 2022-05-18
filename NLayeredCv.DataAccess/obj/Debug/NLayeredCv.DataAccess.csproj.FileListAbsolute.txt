@@ -1,0 +1,17 @@
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\NLayeredCv.DataAccess.dll.config
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\NLayeredCv.DataAccess.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\NLayeredCv.DataAccess.pdb
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\EntityFramework.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\NLayeredCv.Entities.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\NLayeredCv.Entities.pdb
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\NLayeredCv.Entities.dll.config
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\EntityFramework.xml
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.csprojAssemblyReference.cache
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.csproj.CopyComplete
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.pdb
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.Migrations.test.resources
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.DataAccess\obj\Debug\NLayeredCv.DataAccess.csproj.GenerateResource.cache

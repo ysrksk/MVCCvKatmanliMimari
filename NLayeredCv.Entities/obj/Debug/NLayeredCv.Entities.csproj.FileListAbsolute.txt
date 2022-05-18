@@ -1,0 +1,12 @@
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\NLayeredCv.Entities.dll.config
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\NLayeredCv.Entities.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\NLayeredCv.Entities.pdb
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\EntityFramework.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\EntityFramework.xml
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\obj\Debug\NLayeredCv.Entities.csproj.CoreCompileInputs.cache
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\obj\Debug\NLayeredCv.Entities.csproj.CopyComplete
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\obj\Debug\NLayeredCv.Entities.dll
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\obj\Debug\NLayeredCv.Entities.pdb
+D:\Projeler\KatlıMimariMvcCv\KatlıMimariMvcCv\NLayeredCv.Entities\obj\Debug\NLayeredCv.Entities.csprojAssemblyReference.cache

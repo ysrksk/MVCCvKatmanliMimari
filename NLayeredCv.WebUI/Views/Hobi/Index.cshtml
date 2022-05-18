@@ -1,0 +1,27 @@
+﻿@using NLayeredCv.Entities.Concrete
+@model List<TblHobilerim>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h2>Hobi Düzenleme Sayfası</h2>
+
+@foreach (var x in Model)
+{
+<table class="table table-bordered">
+    <tr>
+        <th>@x.Açıklama1  <i>@Html.ActionLink("Sil", "Sil", new { id = x.ID }, new { @class = "btn btn-danger btn-xs" })</i></th>
+    </tr>
+    <br />
+    <tr>
+        <td>@x.Açıklama2</td>
+        
+    </tr>
+</table>
+
+}
+
+@Html.ActionLink("Yeni Hobi Ekle", "YeniEkle", null, new { @class = "btn btn-success" })

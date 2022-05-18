@@ -1,0 +1,56 @@
+﻿@using NLayeredCv.Entities.Concrete
+@model List<TblIletisim>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header p-2">
+                            <h2 style="color:cornflowerblue;">Gelen Mesajlar</h2>
+                        </div><!-- /.card-header -->
+                        <div class="card-body">
+                            @foreach(var x in Model)
+                            {
+                                <div class="tab-pane" id="timeline">
+                                    <!-- The timeline -->
+                                    <div class="timeline timeline-inverse">
+                                        <!-- timeline time label -->
+                                        <div class="time-label">
+                                            <span class="bg-danger">
+                                                @(((DateTime)x.Tarih).ToString("dd-MMM-yyyy"))
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-comments bg-warning"></i>
+                                            <div class="timeline-item">
+                                                <span class="time"><i class="far fa-bell"></i> @x.Mail</span>
+                                                <h3 class="timeline-header"><a href="#">@x.AdSoyad</a> @x.Konu  </h3>
+                                                <div class="timeline-body">
+                                                    @x.Mesaj   
+                                                </div>
+                                                <div class="timeline-footer">
+                                                    @Html.ActionLink("Sil","Sil", new {id = x.ID }, new {@class= "btn btn-warning btn-flat btn-sm" } )
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
